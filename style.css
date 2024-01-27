@@ -48,7 +48,7 @@ img {
 }
 #scroll-div h1 {
   display: inline-block;
-  font-size: 130px;
+  font-size: 150px;
   font-weight: 900;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -63,6 +63,7 @@ img {
   top: 40%;
   width: 100%;
   position: absolute;
+  
   display: flex;
   white-space: nowrap;
   overflow-x: auto;
@@ -76,13 +77,14 @@ img {
   -webkit-text-stroke-color: #000;
   color: transparent;
   display: inline-block;
-  font-size: 130px;
+  font-size: 150px;
   font-weight: 900;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-right: 25px;
   animation-name: scroll;
   animation-duration: 1s;
+  animation-direction: reverse;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -100,7 +102,7 @@ img {
 }
 #scroll-div3 h1 {
   display: inline-block;
-  font-size: 160px;
+  font-size: 150px;
   font-weight: 900;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -115,6 +117,6 @@ img {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(calc(-100% - 30%));
+    transform: translateX(calc(-100% - 25px));
   }
 }
